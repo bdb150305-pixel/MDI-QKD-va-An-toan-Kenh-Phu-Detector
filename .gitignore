@@ -1,0 +1,26 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Môi trường ảo
+.venv/
+venv/
+env/
+
+# Cấu hình cá nhân của VS Code
+.vscode/
+
+# File hệ thống Windows
+Thumbs.db
+Desktop.ini
+
+# File kết quả mô phỏng và dữ liệu thô đầu ra
+results/*
+!results/.gitkeep
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Không push các file báo cáo Word và tài liệu PDF
+*.docx
+*.pdf
